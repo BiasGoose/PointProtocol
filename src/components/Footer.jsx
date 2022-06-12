@@ -2,12 +2,12 @@ import React from 'react'
 
 const Footer = () => {
 	return (
-		<div className="w-full max-w-5xl mx-auto px-4 sm:px-6">
+		<div className="w-full max-w-5xl mx-auto px-4 sm:px-6 mt-12">
 			<div className='flex justify-between items-center py-6 md:justify-between md:space-x-10'>
 				<div>
 					<div className='flex items-center space-x-2'>
-						<div className='bg-primary w-[40px] h-[40px] rounded-full'></div>
-						<p className='text-2xl font-bold'>Point Protocol</p>
+						<div className='bg-primary dark:bg-white w-[40px] h-[40px] rounded-full'></div>
+						<p className='text-2xl font-bold text-primary dark:text-white'>Point Protocol</p>
 					</div>
 					{/* <div className='mt-5'>
 						<div className='flex items-center space-x-2'>
@@ -21,11 +21,11 @@ const Footer = () => {
 				</div>
 				<div>
 					<div className='hidden md:flex space-x-5 font-semibold'>
-						<a href="/" className='duration-150 hover:bg-primary hover:text-white p-2 rounded-lg'>Home</a>
-						<a href="/" className='duration-150 hover:bg-primary hover:text-white p-2 rounded-lg'>About</a>
-						<a href="/" className='duration-150 hover:bg-primary hover:text-white p-2 rounded-lg'>Team</a>
-						<a href="/" className='duration-150 hover:bg-primary hover:text-white p-2 rounded-lg'>Tech</a>
-						<a href="/" className='duration-150 hover:bg-primary hover:text-white p-2 rounded-lg'>Docs</a>
+						<a href="/" className='duration-150 hover:bg-primary hover:text-white dark:hover:bg-white dark:hover:text-primary p-2 rounded-lg text-primary dark:text-white'>Home</a>
+						<a href="/" className='duration-150 hover:bg-primary hover:text-white dark:hover:bg-white dark:hover:text-primary p-2 rounded-lg text-primary dark:text-white'>About</a>
+						<a href="/" className='duration-150 hover:bg-primary hover:text-white dark:hover:bg-white dark:hover:text-primary p-2 rounded-lg text-primary dark:text-white'>Team</a>
+						<a href="/" className='duration-150 hover:bg-primary hover:text-white dark:hover:bg-white dark:hover:text-primary p-2 rounded-lg text-primary dark:text-white'>Tech</a>
+						<a href="/" className='duration-150 hover:bg-primary hover:text-white dark:hover:bg-white dark:hover:text-primary p-2 rounded-lg text-primary dark:text-white'>Docs</a>
 					</div>
 				</div>
 			</div>
@@ -60,7 +60,7 @@ const Footer = () => {
 						<div className='duration-150 hover:scale-105 cursor-pointer'>
 							<svg width="37" height="39" viewBox="0 0 37 39" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M31.2188 0H5.78125C2.58835 0 0 2.72827 0 6.09375V32.9062C0 36.2717 2.58835 39 5.78125 39H31.2188C34.4116 39 37 36.2717 37 32.9062V6.09375C37 2.72827 34.4116 0 31.2188 0Z" fill="#231E1B" />
-								<path fill-rule="evenodd" clip-rule="evenodd" d="M18.4717 9.98389C13.38 9.98389 9.25 14.3371 9.25 19.7041C9.25 23.9976 11.909 27.6353 15.5298 28.9472C15.9824 29.0068 16.1521 28.7087 16.1521 28.4701C16.1521 28.2316 16.1521 27.6353 16.1521 26.8004C13.6063 27.3967 13.0405 25.4885 13.0405 25.4885C12.6445 24.3554 12.0222 24.0573 12.0222 24.0573C11.1735 23.461 12.0787 23.461 12.0787 23.461C12.9839 23.5206 13.4931 24.4747 13.4931 24.4747C14.3417 25.9655 15.643 25.5481 16.1521 25.3096C16.2087 24.6536 16.4916 24.2362 16.7179 23.9976C14.6812 23.7591 12.5313 22.9243 12.5313 19.1674C12.5313 18.094 12.8708 17.2591 13.4931 16.5435C13.4365 16.3646 13.0971 15.3509 13.6063 14.0389C13.6063 14.0389 14.3983 13.8004 16.1521 15.0527C16.8876 14.8142 17.6797 14.7545 18.4717 14.7545C19.2638 14.7545 20.0558 14.8738 20.7913 15.0527C22.5451 13.8004 23.3372 14.0389 23.3372 14.0389C23.8463 15.3509 23.5069 16.3646 23.4503 16.6032C24.0161 17.2591 24.4121 18.1536 24.4121 19.227C24.4121 22.9839 22.2622 23.7591 20.2255 23.9976C20.565 24.2958 20.8479 24.8921 20.8479 25.7866C20.8479 27.0986 20.8479 28.1123 20.8479 28.4701C20.8479 28.7087 21.0176 29.0068 21.4702 28.9472C25.1476 27.6353 27.75 23.9976 27.75 19.7041C27.6934 14.3371 23.5635 9.98389 18.4717 9.98389Z" fill="white" />
+								<path fillRule="evenodd" clipRule="evenodd" d="M18.4717 9.98389C13.38 9.98389 9.25 14.3371 9.25 19.7041C9.25 23.9976 11.909 27.6353 15.5298 28.9472C15.9824 29.0068 16.1521 28.7087 16.1521 28.4701C16.1521 28.2316 16.1521 27.6353 16.1521 26.8004C13.6063 27.3967 13.0405 25.4885 13.0405 25.4885C12.6445 24.3554 12.0222 24.0573 12.0222 24.0573C11.1735 23.461 12.0787 23.461 12.0787 23.461C12.9839 23.5206 13.4931 24.4747 13.4931 24.4747C14.3417 25.9655 15.643 25.5481 16.1521 25.3096C16.2087 24.6536 16.4916 24.2362 16.7179 23.9976C14.6812 23.7591 12.5313 22.9243 12.5313 19.1674C12.5313 18.094 12.8708 17.2591 13.4931 16.5435C13.4365 16.3646 13.0971 15.3509 13.6063 14.0389C13.6063 14.0389 14.3983 13.8004 16.1521 15.0527C16.8876 14.8142 17.6797 14.7545 18.4717 14.7545C19.2638 14.7545 20.0558 14.8738 20.7913 15.0527C22.5451 13.8004 23.3372 14.0389 23.3372 14.0389C23.8463 15.3509 23.5069 16.3646 23.4503 16.6032C24.0161 17.2591 24.4121 18.1536 24.4121 19.227C24.4121 22.9839 22.2622 23.7591 20.2255 23.9976C20.565 24.2958 20.8479 24.8921 20.8479 25.7866C20.8479 27.0986 20.8479 28.1123 20.8479 28.4701C20.8479 28.7087 21.0176 29.0068 21.4702 28.9472C25.1476 27.6353 27.75 23.9976 27.75 19.7041C27.6934 14.3371 23.5635 9.98389 18.4717 9.98389Z" fill="white" />
 							</svg>
 						</div>
 					</a>
