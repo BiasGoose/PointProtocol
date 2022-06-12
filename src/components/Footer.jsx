@@ -29,7 +29,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className='grid grid-cols-3 md:grid-cols-6 gap-5 mt-4 border-2 border-indigo-500'>
+			<div className='grid grid-cols-3 md:grid-cols-6 gap-5 mt-4'>
 				<a href="https://twitter.com" target="_blank" rel="noreferrer">
 					<div className='duration-150 hover:scale-105 cursor-pointer'>
 						<svg width="37" height="39" viewBox="0 0 37 39" fill="none" xmlns="http://www.w3.org/2000/svg">
