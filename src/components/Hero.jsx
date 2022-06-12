@@ -7,8 +7,8 @@ const Hero = () => {
 				<p className='font-extrabold text-[40px] text-primary dark:text-white'>Point Protocol</p>
 				<p className='font-semibold text-primary dark:text-white'>Point Protocol is an open and fast blockchain. Our mainnet runs Ethereum applications with 2-second transaction finality and 100 times lower fees. Our secure bridges offer cross-chain transfers with Ethereum, Binance and 3 other chains.</p>
 			</div>
-			<div className='flex flex-col md:flex-row justify-between mt-12'>
-				<div className='bg-primary dark:bg-black w-full md:w-[478px] h-[400px] rounded-lg'>
+			<div className='flex flex-col md:flex-row justify-between mt-9'>
+				<div className='mt-3 bg-primary dark:bg-black w-full md:w-[478px] h-[400px] rounded-lg'>
 					<div className='px-12'>
 						<div className='py-5'>
 							<h1 className='text-white text-4xl font-extrabold'>ON-CHAIN STATS</h1>
@@ -29,7 +29,7 @@ const Hero = () => {
 						</div>
 					</div>
 				</div>
-				<div className='bg-primary dark:bg-black w-full md:w-[478px] h-[400px] rounded-lg'>
+				<div className='mt-3 bg-primary dark:bg-black w-full md:w-[478px] h-[400px] rounded-lg'>
 					<div className='px-12'>
 						<div className='mt-5'>
 							<h1 className='text-white text-2xl md:text-4xl font-extrabold w-full md:w-[380px]'>Get Connected to our Multi-Chain World.</h1>

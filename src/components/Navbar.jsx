@@ -1,17 +1,17 @@
 import React, { useEffect } from 'react'
 
 const Navbar = () => {
-
+	console.log("")
 	function darkModeToggle() {
 		const mode = localStorage.getItem("darkMode")
-		if (mode == null) {
-			document.documentElement.classList.add('dark')
-			localStorage.setItem("darkMode", "dark")
-		}
+		console.log(mode)
 
 		if (mode === "dark") {
 			localStorage.setItem("darkMode", "light")
 			document.documentElement.classList.remove('dark')
+		} else if (mode === "light") {
+			localStorage.setItem("darkMode", "dark")
+			document.documentElement.classList.add('dark')
 		} else {
 			localStorage.setItem("darkMode", "dark")
 			document.documentElement.classList.add('dark')
